@@ -1,0 +1,21 @@
+.change{
+    height: 1000px;
+    width : 1000px;
+    background-color: aliceblue;
+    animation: colors 2s infinite;
+}
+@keyframes colors {
+    0%{
+        background-color: chocolate;
+    }
+    25%{
+        background-color: crimson;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    75%{
+        background-color: darkgreen;
+    }
+    
+}
